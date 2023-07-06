@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<style>
+    #gridContainer .success {
+        color: #2ab71b;
+    }
+
+    #gridContainer .error {
+        color: #f00;
+    }
+</style>
+<section style="padding: 10px;">
+    <div id="charContainer"></div>
+    <div id="gridContainer"></div>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script src="/static/scripts/home.js"></script>
+{% endblock %}
